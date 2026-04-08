@@ -1,0 +1,19 @@
+{
+  "results": {
+    "Genetic": { "distance": 17.3227, "time": 21.5822 },
+    "Greedy Insertion": { "distance": 17.3227, "time": 0.0054 },
+    "Nearest Neighbor": { "distance": 17.3227, "time": 0.0082 }
+  },
+  "best": "Nearest Neighbor",
+  "nodes": [
+    { "id": 0, "x": 0, "y": 0 },
+    { "id": 1, "x": 2, "y": 3 },
+    { "id": 2, "x": 5, "y": 4 },
+    { "id": 3, "x": 1, "y": 6 }
+  ],
+  "routes": {
+    "Nearest Neighbor": [0, 1, 2, 3, 0],
+    "Greedy Insertion": [0, 3, 2, 1, 0],
+    "Genetic": [0, 1, 2, 3, 0]
+  }
+}
