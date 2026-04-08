@@ -1,0 +1,15 @@
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# C++ build files
+*.exe
+*.o
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
